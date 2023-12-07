@@ -61,9 +61,21 @@ function transform_hamburger(){
 }
 
 //! ============= resume button ==========
-document.getElementById("resume-button-1").onclick = () => {
-    window.open("https://drive.google.com/file/d/1YaIZdojptuXltDcbIN-25kY1mXThw0zR/view?usp=sharing");
+// document.getElementById("resume-button-1").onclick = () => {
+//     window.open("https://drive.google.com/file/d/1YaIZdojptuXltDcbIN-25kY1mXThw0zR/view?usp=sharing");
+// }
+
+
+const resumeButton1 = document.getElementById("resume-button-1");
+
+if (resumeButton1) {
+    resumeButton1.onclick = () => {
+        window.open("https://drive.google.com/file/d/1YaIZdojptuXltDcbIN-25kY1mXThw0zR/view?usp=sharing");
+    };
+} else {
+    console.error("Element with ID 'resume-button-1' not found");
 }
+
 
 // document.getElementById("resume-button-2").onclick = () => {
 //     location.assign("https://drive.google.com/file/d/1Q8h7n7NZzntb8nKXSRGrFnjtI7HxaKXs/view?usp=share_link");
