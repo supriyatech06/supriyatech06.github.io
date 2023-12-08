@@ -82,6 +82,19 @@ if (resumeButton1) {
 // }
 
 
+
+
+const resumeButton2 = document.getElementById("resume-button-2");
+
+if (resumeButton2) {
+    resumeButton2.onclick = () => {
+        window.open("https://drive.google.com/file/d/1YaIZdojptuXltDcbIN-25kY1mXThw0zR/view?usp=sharing");
+    };
+} else {
+    console.error("Element with ID 'resume-button-1' not found");
+}
+
+
 // ! LOGO
 document.getElementById("nav_logo").addEventListener("click", () => {
     window.location.href = "./index.html";
