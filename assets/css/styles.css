@@ -18,8 +18,11 @@
     /*--body-color: hsl(var(--hue-color), 60%, 99%);*/
     --body-color: #ECF2FF;
     --card-color: #E5D1FA;
+    --body-font: 'Playfair Display', serif;
+
+
     /*========== Font and typography ==========*/
-    --body-font: 'Poppins', sans-serif;
+    /* --body-font: 'Poppins', sans-serif; */
     ;
 
     /* 1.5rem = 24px, 1.25rem = 20px, 1.125rem = 18px, 0.75rem = 12px ... */

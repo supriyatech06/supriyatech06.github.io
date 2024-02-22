@@ -70,7 +70,7 @@ const resumeButton1 = document.getElementById("resume-button-1");
 
 if (resumeButton1) {
     resumeButton1.onclick = () => {
-        window.open("https://drive.google.com/file/d/1YaIZdojptuXltDcbIN-25kY1mXThw0zR/view?usp=sharing");
+        window.open("https://drive.google.com/file/d/1mxN4m4ZBU6jfbnzhiaaQ63rbzAVtyBZG/view?usp=sharing");
     };
 } else {
     console.error("Element with ID 'resume-button-1' not found");
@@ -88,7 +88,7 @@ const resumeButton2 = document.getElementById("resume-button-2");
 
 if (resumeButton2) {
     resumeButton2.onclick = () => {
-        window.open("https://drive.google.com/file/d/1YaIZdojptuXltDcbIN-25kY1mXThw0zR/view?usp=sharing");
+        window.open("https://drive.google.com/file/d/1mxN4m4ZBU6jfbnzhiaaQ63rbzAVtyBZG/view?usp=sharing");
     };
 } else {
     console.error("Element with ID 'resume-button-1' not found");

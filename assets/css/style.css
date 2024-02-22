@@ -146,9 +146,10 @@
 
 .navigation_box>ul>li {
     padding-left: 18px;
-    font-size: var(--smaller-font);
-    font-weight: 500;
-    color: var(--grey-dark);
+    /* font-size: var(--smaller-font); */
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--grey-darker);
 }
 
 .navigation_box>ul>li:hover a {
@@ -161,7 +162,8 @@
 }
 
 .nav_container a {
-    letter-spacing: 0.8px;
+    letter-spacing: 1px;
+    
 }
 
 .navigation_box>button {
